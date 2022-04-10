@@ -1,0 +1,15 @@
+{
+  "dialog_which_city_text": "В каком городе хотите узнать погоду?",
+  "form_hint_text": "Введите название города",
+  "dialog_add_btn": "Добавить",
+  "home_screen_feels_text": "Ощущается",
+  "home_screen_humidity_text": "Влажность",
+  "home_screen_pressure_text": "Давление",
+  "home_screen_wind_speed_text": "Скорость ветра",
+  "home_screen_forecast_4days_text": "Прогноз на 4 дня",
+  "your_cities_text": "Ваши города",
+  "measure_mbar_text": "мбар",
+  "measure_speed_text": "км/ч",
+  "getting_data_text": "Получение данных...",
+  "next_4days_text": "СЛЕДУЮЩИЕ 4 ДНЯ"
+}

@@ -1,0 +1,15 @@
+{
+  "dialog_which_city_text": "Enter the name of your city",
+  "form_hint_text": "Enter the name of city",
+  "dialog_add_btn": "Add",
+  "home_screen_feels_text": "Feels like",
+  "home_screen_humidity_text": "Humidity",
+  "home_screen_pressure_text": "Pressure",
+  "home_screen_wind_speed_text": "Wind speed",
+  "home_screen_forecast_4days_text": "Forecast for 4 days",
+  "your_cities_text": "Your cities",
+  "measure_mbar_text": "mbar",
+  "measure_speed_text": "km/h",
+  "getting_data_text": "Getting data...",
+  "next_4days_text": "NEXT 4 DAYS"
+}
