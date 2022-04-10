@@ -1,16 +1,27 @@
 # ranks_test_weather_app
 
-A new Flutter application.
+Вагапов Анвар
+Тестовое задание Mobile Flutter Weather Application
+Описание проекта: В проекте применяется Чистая архитектура (Clean architecture), State Management организован через MobX. Используемые слои:
+data - слой работы с данными. Здесь описывается работа с API;
+domain - слой бизнес-логики;
+internal - слой приложения, внедрение зависимостей;
+presentation - слой представления, UI.
+Используемые библиотеки: 
+- работа с https://home.openweathermap.org/ Dio
+- локализация: Intl
+- работа с размерами виджетов: flutter_screenutil
+- получение координат по адресу: geocode
+- сохранение данных: shared_preferences
+- работа с состоянием: mobx
 
-## Getting Started
+Функционал приложения:
 
-This project is a starting point for a Flutter application.
+1. При первом входе пользователь должен выбрать свой город. [Диалоговое окно]
+2. На основном экране показывается детальная информация о погоде в городе с момента открытия приложения на ближайшие сутки (24 часа)
+3. Реализован просмотр погоды на последующие дни. [Следующие 4 суток. ModalBottomSheet]
+4*. Реализована возможность добавлять дополнительные города. Переключение между выбранными городами. [При наличии города с тем же названием, город не дублируется]
+5*. Реализована навигация между экранами городов. [Вдобавок реализован поиск городов в списке]
+6*. Реализовано переключение языка всего приложения (Русский <=> Английский). [Язык выбирается в зависимости от выбранного в системе языка. Меняется язык как запроса, так и текста самого приложения]
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Подготовительные действия: Создать API в https://home.openweathermap.org/ Поместить его в поле _API_KEY помеченный TODO:
